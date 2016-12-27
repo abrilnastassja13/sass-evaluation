@@ -172,7 +172,7 @@
 .mas {
 	margin-top: -1rem;
 	a{	
-		color: $texto-grises;
+		color: $texto-gris;
 		i{
 			@include enlace-gris;
 		}	
@@ -216,27 +216,8 @@
 		@include enlace-grisdos;
 		font-size: 12px;
 		&:hover{
-			color: $principal-color;
+			color: $rojo-principal;
 		}
 	}	
 }
 
-.nav-sep{
-	margin: 0.4rem 0;
-}
-.flickr{
-	margin-top: 1.4rem;
-}
-.color{
-	background-color: $principal-color;
-	width: 100%;
-	height: 0.5rem;
-}
-.credits {
-	font-size: 10px;
-	text-align: center;
-	color: $blanco;
-	background-color: $principal-color;
-	margin-bottom: -1.5rem;
-	padding-top: 0.2rem;
-}

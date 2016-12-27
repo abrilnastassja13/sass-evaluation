@@ -1,0 +1,242 @@
+.fotos1 {
+	margin-top: 1rem;
+}
+
+.section1 {
+	margin-top: 3rem;
+}
+
+.box-color {
+    background-color: $principal-color;
+    position: absolute;
+    float: left;
+    z-index: 3;
+    padding: 5px 30px;
+    color: $blancos;
+ }
+
+.divider {
+	background-color: $rojo-principal;
+	margin-top: 0.21rem;
+}
+
+.w {
+	@include marca;
+}
+
+.titulo {
+	font-size: 16px;
+	color: $grises;
+	span{
+		@include marca;
+	}
+}
+
+.titulo2 {
+	font-size: 14px;
+	a {
+		color: $grises;
+		margin-right: 0.5rem;
+		span{
+			@include marca;
+		}
+	}
+}
+
+.button-collapse {
+	i {
+		color: $rojo-principal;
+	}
+}
+
+.fecha {
+	@include noticias;
+	color: $rojo-principal;
+}
+
+.info {
+	@include texto-dos;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.info2 {
+	@include noticias;
+	color: $grises;
+	margin-top: 0.4rem;
+}
+
+.calificar {
+	@include estrella;
+	span{
+		color: $rojo-principal;	
+	}
+	.material-icons{
+		font-size: 10px;
+	}
+}
+
+.calificar2 {
+	@include calificar;
+	margin-top: -1rem;
+	span{
+		color: $rojo-principal;	
+	}
+	.material-icons{
+		font-size: 10px;
+	}
+}
+
+.texto-p {
+	margin-top: -0.4rem;
+}
+
+.espacio {
+	.divider {
+		background-color: $texto-gris;
+		margin-top: -1rem;
+	}
+}
+
+.texto2 {
+	margin-top: -1.5rem;
+}
+.fa-facebook {
+	@include redes;
+	background-color: $facebook;
+	&:hover {
+		background-color: lighten($facebook, 10%);
+	}
+}
+
+.fa-twitter {
+	@include redes;
+	background-color: $tw;
+	&:hover{
+		background-color: lighten($twitter, 10%);
+	}
+}
+
+.fa-rss {
+	@include redes;
+	background-color: $rss;
+	&:hover {
+		background-color: lighten($rss, 10%);
+	}
+}
+
+.fans{
+	@include texto-dos;
+}
+
+.video{
+	margin-top: 2.4rem;
+	.video-container{
+		margin-top: 2.5rem;
+		margin-bottom: 2rem;
+	}
+}
+.spots {
+	margin-top: 2rem;
+}
+
+.titulo-color {
+	@include texto-dos;
+	@include line-height(25);
+}
+
+.sidebar {
+	margin-top: -2rem;
+	@include texto-dos;
+	@include line-height(25);
+}
+.texto-p-color {
+	@include texto-tres;
+	@include line-height(25);
+}
+
+.world-news {
+	margin-top: 1rem;
+}
+
+.accord {
+	a{
+		@include enlace-red;
+	}
+}
+
+.accord-info {
+	margin-top: -2rem;
+}
+
+.mas {
+	margin-top: -1rem;
+	a{	
+		color: $texto-grises;
+		i{
+			@include enlace-gris;
+		}	
+	}
+}
+
+.t-world {
+	margin-top: -4rem;
+}
+
+.people-like {
+	font-size: 12px;
+	span{
+		font-weight: 700;
+	}
+}
+
+.foto-face {
+	@include subtitulo-uno;
+}
+
+.fb {
+	margin-top: -1rem;
+}
+
+.social {
+	img{
+		margin-top: 0.3rem;
+	}
+	a{
+		@include subtitulo-uno;
+	}
+}
+
+.tweet {
+	font-weight: 300;
+}
+
+.navigation {
+	a{
+		@include enlace-grisdos;
+		font-size: 12px;
+		&:hover{
+			color: $principal-color;
+		}
+	}	
+}
+
+.nav-sep{
+	margin: 0.4rem 0;
+}
+.flickr{
+	margin-top: 1.4rem;
+}
+.color{
+	background-color: $principal-color;
+	width: 100%;
+	height: 0.5rem;
+}
+.credits {
+	font-size: 10px;
+	text-align: center;
+	color: $blanco;
+	background-color: $principal-color;
+	margin-bottom: -1.5rem;
+	padding-top: 0.2rem;
+}
